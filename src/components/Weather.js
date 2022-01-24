@@ -1,13 +1,12 @@
 import React from 'react'
 import { List, Header } from 'semantic-ui-react'
-import { BrandingWatermarkOutlined } from '@material-ui/icons'
 
 export default class Weather extends React.Component {
 
     render() {
         return(
             <div className='ui segment padded inverted black'>
-                <Header as='h3'>Pogoda w twojej lokalizacji:</Header>
+                <Header as='h3'>Pogoda w twoim mieście:</Header>
                 <List>
                     <List.Item>
                         <List.Icon name='thermometer half inverted olive' size="big"/>

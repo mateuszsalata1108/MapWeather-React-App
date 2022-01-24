@@ -8,7 +8,7 @@ const Map=(props) => {
             <div className='ui segment padded inverted black'>
                     <div className='ui form'>
                         <div>
-                            <Header as='h3' inverted color="white">Mapa twojej lokalizacji:</Header>
+                            <Header as='h3' inverted color="white">Mapa twojego miasta:</Header>
                             <ReactMapGL
                             mapStyle={"mapbox://styles/mapbox/streets-v11"}
                              mapboxApiAccessToken='pk.eyJ1IjoianVzdGZvcjF0aGluZyIsImEiOiJja3lvdWdwaG0wM3M2Mm9vMW02NGcwbzltIn0.mlbLaxnWwrURfC_BCCyPlQ'
